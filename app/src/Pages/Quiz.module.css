@@ -1,0 +1,78 @@
+.quizContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /*width: 100vw; */
+    padding: 0 20px;
+    text-align: center;
+    background-color: aqua;
+    /* height:600px;
+    width: 50%; */
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.quizContainer h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+}
+.quizContainer h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+}
+/* .quizContainer button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: rgb(135, 158, 60);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    gap:10px;
+} */
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 20px;
+    background-color: aqua;
+    gap:10px;
+}
+.buttonContainer button{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: rgb(135, 158, 60);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    gap:10px;
+}
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+    margin-bottom: 50px;
+}
+.buttonDiv button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: rgb(60, 158, 81);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    gap:10px;
+}
+.buttonDiv button:hover{
+    background-color: rgb(218, 8, 218);
+    color: #fff;
+}

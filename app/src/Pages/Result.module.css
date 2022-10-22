@@ -1,0 +1,25 @@
+.Table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+    height:100%;
+    background-color: aqua;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Table button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: rgb(135, 158, 60);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    gap:10px;
+}
+.Table button:hover{
+    background-color: rgb(218, 8, 218);
+    color: #fff;
+}

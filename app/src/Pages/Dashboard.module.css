@@ -1,0 +1,44 @@
+.DashboardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.DashboardContainer h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(58, 53, 53);
+}
+.DashboardContainer button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: rgb(135, 158, 60);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    gap:10px;
+}
+.DashboardContainer button:hover{
+    background-color: rgb(218, 8, 218);
+    color: #fff;
+}
+
+.DashboardContainer table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #333;
+    margin: 10px 0;
+}
+.DashboardContainer th{
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+.DashboardContainer td{
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
